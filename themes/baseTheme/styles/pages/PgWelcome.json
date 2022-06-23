@@ -1,0 +1,101 @@
+{
+  "#pgWelcome": {
+    "flexProps": {
+      "alignItems": "STRETCH"
+    },
+    "&-imgWelcome": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "height": null,
+      "image": "welcome_bottom.png",
+      "imageFillType": "ASPECTFILL"
+    },
+    "backgroundColor": "rgba( 85, 153, 183, 1 )",
+    "&-lblTop": {
+      "textColor": "rgba( 255, 255, 255, 1 )",
+      "font": {
+        "size": 36,
+        "family": "Default",
+        "style": "Bold",
+        "bold": true
+      },
+      "maxLines": 3,
+      "ellipsizeMode": "WORDWRAPPING",
+      "flexProps": {
+        "flexGrow": null
+      },
+      "height": 150,
+      "textAlignment": "MIDLEFT",
+      "width": 250
+    },
+    "&-flWrapper": {
+      "padding": 15,
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "marginTop": 40
+    },
+    "&-statusBar": {
+      "visible": false
+    },
+    "&-headerBar": {
+      "visible": false
+    },
+    "&-lblBottom": {
+      "textColor": "rgba( 255, 255, 255, 1 )",
+      "margin": null,
+      "marginTop": 5,
+      "font": {
+        "size": 12,
+        "bold": true,
+        "family": "Default",
+        "style": "Bold"
+      }
+    },
+    "&-nextBtn": {
+      "width": 50,
+      "height": 50,
+      "flexProps": {
+        "positionType": "ABSOLUTE",
+        "flexGrow": null
+      },
+      "bottom": 50,
+      "right": 50,
+      "font": {
+        "family": "FontAwesome5FreeSolid",
+        "style": "Regular"
+      },
+      "backgroundColor": {
+        "normal": "rgba( 255, 255, 255, 1 )"
+      },
+      "textColor": "rgba( 0, 0, 0, 1 )",
+      "borderRadius": 100,
+      "left": null,
+      "top": null
+    },
+    "&-nextLbl": {
+      "font": {
+        "family": "FontAwesome5FreeSolid"
+      },
+      "textColor": "rgba( 255, 255, 255, 1 )"
+    },
+    "&-button1": {
+      "left": 327.68,
+      "top": 242.86,
+      "node": null,
+      "x": 327.68,
+      "y": 242.86,
+      "deltaX": 0,
+      "deltaY": 0,
+      "lastX": 327.68,
+      "lastY": 242.86
+    },
+    "&-flBottomWrapper": {
+      "height": null,
+      "flexProps": {
+        "flexGrow": 1
+      }
+    }
+  }
+}

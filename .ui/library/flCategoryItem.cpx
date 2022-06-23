@@ -1,0 +1,41 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flCategoryItem",
+			"id": "9291-9032-a275-843e",
+			"props": {
+				"children": [
+					"fdad-002b-0aec-4b61"
+				],
+				"name": "flCategoryItem",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 20.67,
+				"top": 308
+			}
+		},
+		{
+			"className": ".sf-label .flCategoryItem-lblCategory",
+			"id": "fdad-002b-0aec-4b61",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblCategory",
+				"parent": "9291-9032-a275-843e",
+				"text": "Home"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Home"
+			}
+		}
+	]
+}

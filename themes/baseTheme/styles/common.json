@@ -1,0 +1,40 @@
+{
+  ".flHouseItem1": {
+    "flexProps": {
+      "positionType": "RELATIVE"
+    },
+    "flex": {
+      "positionType": 0
+    }
+  },
+  ".flCategoryItem1": {
+    "flexProps": {
+      "positionType": "RELATIVE"
+    },
+    "flex": {
+      "positionType": 0
+    }
+  },
+  ".flHomeSearchView": {
+    "width": null,
+    "height": 60,
+    "&-homeSearchView": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "backgroundColor": "rgba( 255, 255, 255, 1 )",
+      "textFieldBackgroundColor": "rgba( 255, 255, 255, 1 )",
+      "font": {
+        "size": 12
+      },
+      "textAlignment": "MIDLEFT",
+      "borderRadius": 30
+    },
+    "borderRadius": 30,
+    "backgroundColor": "rgba( 255, 255, 255, 0 )",
+    "flexProps": {
+      "flexGrow": null
+    },
+    "marginBottom": 20
+  }
+}

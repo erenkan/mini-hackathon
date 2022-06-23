@@ -1,0 +1,47 @@
+{
+	"components": [
+		{
+			"className": ".sf-gridViewItem .gviHouse",
+			"id": "3a11-e648-86e5-9806",
+			"props": {
+				"children": [
+					"13a3-70b1-c3fc-f468"
+				],
+				"name": "gviHouse",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"left": 18,
+				"top": 82.67
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flHouseItem .gviHouse-flHouseItem",
+			"hiddenComponent": false,
+			"id": "13a3-70b1-c3fc-f468",
+			"props": {
+				"children": [],
+				"name": "flHouseItem",
+				"parent": "3a11-e648-86e5-9806"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flHouseItem",
+				"id": "3203-d7ee-5aef-f0cd"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		}
+	]
+}

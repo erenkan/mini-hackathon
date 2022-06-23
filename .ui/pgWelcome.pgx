@@ -1,0 +1,139 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #pgWelcome",
+			"id": "53a7-8be8-6b34-7e7f",
+			"initialized": true,
+			"props": {
+				"children": [
+					"1c14-1ff5-3bbe-610f",
+					"7adb-7cc0-61f5-83e5",
+					"cd35-5991-c3fa-c0ff",
+					"9b4a-34ae-76f3-b21b"
+				],
+				"name": "pgWelcome",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.0-rc.1"
+		},
+		{
+			"className": ".sf-statusBar #pgWelcome-statusBar",
+			"hiddenComponent": false,
+			"id": "1c14-1ff5-3bbe-610f",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "53a7-8be8-6b34-7e7f"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar #pgWelcome-headerBar",
+			"hiddenComponent": false,
+			"id": "7adb-7cc0-61f5-83e5",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "53a7-8be8-6b34-7e7f",
+				"title": "pgWelcome"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgWelcome"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgWelcome-flWrapper",
+			"id": "cd35-5991-c3fa-c0ff",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"4783-0df3-7813-a754",
+					"dd99-6beb-922a-4630"
+				],
+				"name": "flWrapper",
+				"parent": "53a7-8be8-6b34-7e7f"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #pgWelcome-lblTop",
+			"id": "4783-0df3-7813-a754",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblTop",
+				"parent": "cd35-5991-c3fa-c0ff",
+				"text": "The Place For You Back is a House"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "The Place For You Back is a House"
+			}
+		},
+		{
+			"className": ".sf-label #pgWelcome-lblBottom",
+			"id": "dd99-6beb-922a-4630",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblBottom",
+				"parent": "cd35-5991-c3fa-c0ff",
+				"text": "Choose your dream house for your future"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Choose your dream house for your future"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #pgWelcome-flBottomWrapper",
+			"id": "9b4a-34ae-76f3-b21b",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"9938-66b7-bbff-59f0",
+					"639f-12a3-babb-add1"
+				],
+				"name": "flBottomWrapper",
+				"parent": "53a7-8be8-6b34-7e7f"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgWelcome-imgWelcome",
+			"id": "9938-66b7-bbff-59f0",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgWelcome",
+				"parent": "9b4a-34ae-76f3-b21b"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-button #pgWelcome-nextBtn",
+			"id": "639f-12a3-babb-add1",
+			"oldName": "button1",
+			"props": {
+				"children": [],
+				"name": "btnNext",
+				"parent": "9b4a-34ae-76f3-b21b",
+				"text": ""
+			},
+			"type": "Button",
+			"userProps": {
+				"text": ""
+			}
+		}
+	]
+}

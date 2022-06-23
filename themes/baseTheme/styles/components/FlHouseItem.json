@@ -1,0 +1,63 @@
+{
+  ".flHouseItem": {
+    "width": null,
+    "height": 180,
+    "backgroundColor": "rgba( 255, 255, 255, 1 )",
+    "&-imgHouse": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "borderRadius": 10,
+      "image": "house_example.png",
+      "imageFillType": "ASPECTFILL"
+    },
+    "&-flBottom": {
+      "flexProps": {
+        "flexGrow": null
+      },
+      "height": 15,
+      "&-lblLocation": {
+        "flexProps": {
+          "flexGrow": 1
+        },
+        "textAlignment": "MIDRIGHT",
+        "font": {
+          "size": 8,
+          "family": "Default"
+        },
+        "textColor": "rgba( 0, 0, 0, 1 )"
+      },
+      "font": {
+        "size": 8
+      },
+      "paddingRight": 10
+    },
+    "&-lblPrice": {
+      "flexProps": {
+        "flexGrow": null
+      },
+      "textAlignment": "MIDCENTER",
+      "font": {
+        "size": 12
+      },
+      "textColor": "rgba( 0, 0, 0, 1 )"
+    },
+    "borderRadius": 15,
+    "ios": {
+      "shadowColor": "rgba( 155, 155, 155, 1 )",
+      "shadowOffset": {
+        "y": 5,
+        "x": 0
+      },
+      "shadowOpacity": 1,
+      "shadowRadius": 5
+    },
+    "flexProps": {
+      "flexGrow": 1
+    },
+    "margin": 10,
+    "android": {
+      "elevation": null
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  ".flCategoryItem": {
+    "flexProps": {
+      "flexGrow": null,
+      "positionType": "RELATIVE"
+    },
+    "borderRadius": 15,
+    "borderColor": "rgba( 0, 0, 0, 1 )",
+    "borderWidth": 1,
+    "&-lblCategory": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "textAlignment": "MIDCENTER",
+      "font": {
+        "size": 12
+      },
+      "textColor": "rgba( 0, 0, 0, 1 )"
+    },
+    "flex": {
+      "positionType": 0
+    },
+    "height": 30,
+    "margin": 5,
+    "width": 70
+  }
+}

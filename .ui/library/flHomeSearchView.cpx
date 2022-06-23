@@ -1,0 +1,41 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flHomeSearchView",
+			"id": "fe58-ce02-7bef-c223",
+			"props": {
+				"children": [
+					"2f36-16fe-76b8-94b7"
+				],
+				"name": "flHomeSearchView",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 36,
+				"top": 359.33
+			}
+		},
+		{
+			"className": ".sf-searchView .flHomeSearchView-homeSearchView",
+			"id": "2f36-16fe-76b8-94b7",
+			"oldName": "searchView1",
+			"props": {
+				"children": [],
+				"hint": "Find Location your dream house",
+				"name": "homeSearchView",
+				"parent": "fe58-ce02-7bef-c223"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "SearchView",
+			"userProps": {
+				"hint": "Find Location your dream house"
+			}
+		}
+	]
+}

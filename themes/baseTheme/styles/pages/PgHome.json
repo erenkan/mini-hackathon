@@ -1,0 +1,72 @@
+{
+  "#pgHome": {
+    "padding": 15,
+    "backgroundColor": {
+      "startColor": "#447A92",
+      "endColor": "#FFFFFF",
+      "direction": "DIAGONAL_TOP"
+    },
+    "&-gvHouses": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "layoutManager": {
+        "spanCount": 2,
+        "scrollDirection": "VERTICAL"
+      }
+    },
+    "&-gviHouse": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-gvCategories": {
+      "height": 40,
+      "layoutManager": {
+        "spanCount": 4,
+        "scrollDirection": "VERTICAL"
+      }
+    },
+    "&-gviCategory": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-imgBackgroud": {
+      "flexProps": {
+        "positionType": "RELATIVE",
+        "flexGrow": null,
+        "alignSelf": "CENTER"
+      },
+      "width": 20,
+      "height": 100,
+      "top": null,
+      "right": null,
+      "left": null,
+      "bottom": null
+    },
+    "&-flTest": {
+      "width": 100
+    },
+    "&-flHomeSearchView": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-gridView1": {
+      "layoutManager": {
+        "spanCount": 2
+      }
+    },
+    "paddingTop": 40
+  }
+}
